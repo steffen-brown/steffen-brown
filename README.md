@@ -71,7 +71,7 @@
   <a href="https://www.linkedin.com/in/steffenbrown/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff" alt="LinkedIn"/>
   </a>
-  <a href="mailto:steffenbrown@outlook.com">
+  <a href="mailto:sbrown16@illinois.edu">
     <img src="https://img.shields.io/badge/Email-0078D4?logo=microsoft-outlook&logoColor=fff" alt="Outlook"/>
   </a>
 </p>
