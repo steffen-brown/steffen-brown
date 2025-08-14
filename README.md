@@ -57,12 +57,13 @@
 ---
 
 ## 📌 Featured Projects
-| Project | Description | Tech |
-| --- | --- | --- |
-| **[GEM Car Summon Backend](https://github.com/steffen-brown/GEM-Summon-Backend)** | Flask API controlling autonomous GEM car navigation | Python, Flask, REST |
-| **[ECE 484 Final](https://github.com/steffen-brown/ece484-final)** | Perception & control algorithms for robotics | C++, OpenCV |
-| **[SemaFourOS](https://github.com/steffen-brown/SemaFourOS)** | Custom lightweight OS for embedded systems | C |
-| **[ECE 385 FPGA Lab](https://github.com/steffen-brown/ece385)** | SystemVerilog-based FPGA designs for hardware projects | SystemVerilog |
+| Project | Description | Tech | Repos |
+| --- | --- | --- | --- |
+| **GEM Car Summon System** | Autonomous parking exit & navigation system for a GEM electric vehicle. Integrated perception, control, and Flask-based backend for remote commands. | Python, Flask, ROS, OpenCV, Gazebo, RViz | [GEM-Summon-Backend](https://github.com/steffen-brown/GEM-Summon-Backend) |
+| **ECE 484 Final Project – Robotics Perception & Control** | Vision-based detection and control algorithms for a mobile robot using OpenCV and tuned controllers for smooth motion. | C++, OpenCV, ROS | [ece484-final](https://github.com/steffen-brown/ece484-final) |
+| **SemaFourOS** | Custom lightweight OS for embedded systems with semaphore-based multitasking. Built for educational purposes and performance testing. | C, Embedded Systems | [SemaFourOS](https://github.com/steffen-brown/SemaFourOS) |
+| **FPGA & Digital Design (ECE 385 Labs)** | FPGA-based hardware design projects including CPU design, video controllers, and peripheral interfaces. | SystemVerilog, FPGA, Digital Design | [ece385](https://github.com/steffen-brown/ece385) |
+
 
 ---
 
