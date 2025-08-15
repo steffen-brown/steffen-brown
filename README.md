@@ -59,10 +59,10 @@
 ## 📌 Featured Projects
 | Project | Description | Tech | Repos |
 | --- | --- | --- | --- |
-| **GEM Car Summon System** | Autonomous parking exit & navigation system for a GEM electric vehicle. Integrated perception, control, and Flask-based backend for remote commands. | Python, Flask, ROS, OpenCV, Gazebo, RViz | [GEM-Summon-Backend](https://github.com/steffen-brown/GEM-Summon-Backend) |
-| **ECE 484 Final Project – Robotics Perception & Control** | Vision-based detection and control algorithms for a mobile robot using OpenCV and tuned controllers for smooth motion. | C++, OpenCV, ROS | [ece484-final](https://github.com/steffen-brown/ece484-final) |
-| **SemaFourOS** | Custom lightweight OS for embedded systems with semaphore-based multitasking. Built for educational purposes and performance testing. | C, Embedded Systems | [SemaFourOS](https://github.com/steffen-brown/SemaFourOS) |
-| **FPGA & Digital Design (ECE 385 Labs)** | FPGA-based hardware design projects including CPU design, video controllers, and peripheral interfaces. | SystemVerilog, FPGA, Digital Design | [ece385](https://github.com/steffen-brown/ece385) |
+| **GEM Car Summon System** | ROS Noetic-based autonomous ‘Summon’ system for a GEM e2 EV that exits parking bays, follows lanes with a tuned PID controller, avoids obstacles using LiDAR, and stops precisely at a GPS-designated point, all triggered via a simple web interface. | Python, Flask, ROS, OpenCV, Gazebo, RViz, React, C++, Numpy | [GEM-Summon-Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware) <br><br> [GEM-Summoner-Frontend](https://github.com/steffen-brown/GEM-Summoner-Frontend) <br><br> [GEM-Summoner-Backend](https://github.com/steffen-brown/GEM-Summoner-Backend)|
+| **WUSN Soil Moisture Extrapolator** | Python-based system that interpolates and extrapolates live soil moisture maps from sparse wireless underground sensor network (WUSN) data and regional topography, enabling continuous coverage across the study area. | Python, Scikit-Learn, Numpy, Pandas | [Soil-Moisture-Interpolator-Extrapolator](https://github.com/steffen-brown/Soil-Moisture-Interpolator-Extrapolator) |
+| **Lightweight Operating System** | Lightweight x86-based embedded operating system written in C and assembly, featuring a custom scheduler, program execution, memory management, interrupt handling, and device drivers, all built without external libraries. | C, x86 Assembly, Embedded Systems | [Lightweight-Operating-System](https://github.com/steffen-brown/Lightweight-Operating-System) |
+| **FGPA-Based Pacman** | FPGA-based Pac-Man game for a Spartan 7 board, combining SystemVerilog hardware modules for VGA rendering, keyboard input, and real-time score display with C-based game logic handling movement, ghost AI, collision detection, and scoring via an AXI Lite interface. | SystemVerilog, FPGA, C, C++, Digital Design | [Pacman-FPGA](https://github.com/steffen-brown/Pacman-FPGA) |
 
 
 ---
