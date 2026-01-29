@@ -3,80 +3,109 @@
 <h1 align="center">Hi, I'm Steffen 👋</h1>
 
 <p align="center">
-  <b>Computer Engineering @ UIUC</b>  
-  Robotics • FPGA • Embedded Systems • Operating Systems • Machine Learning for Perception/Control  
+  <b>Computer Engineering @ UIUC</b><br/>
+  RTL Design • Computer Architecture • ASIC / SoC • Verification • Embedded Systems
 </p>
 
 ---
 
 ## 🚀 About Me
-- 🎓 Computer Engineering student at the **University of Illinois Urbana-Champaign**  
-- 🤖 Experienced in robotics, FPGA design, embedded systems, and custom OS development  
-- 🧠 Skilled in applying machine learning to enhance perception and control in engineering systems  
-- 💡 Always building, experimenting, and solving technical challenges
+- 🎓 Computer Engineering student at the **University of Illinois Urbana-Champaign**
+- 🧠 Focused on **digital design, microarchitecture, and verification**, with hands-on experience building complex RTL systems
+- 🧩 Designed and validated **out-of-order RISC-V processors, cache subsystems, and verification infrastructure** in SystemVerilog
+- ⚙️ Background in embedded and robotics systems, with ML used as a supporting tool for perception and control
+- 💡 Interested in roles where **correctness, performance, and architectural tradeoffs** matter
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Stack
 
-### 🔹 Hardware & Embedded Systems
+### 🔹 Digital Design & Computer Architecture
 <p>
-  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=fff" alt="C"/>
-  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=fff" alt="C++"/>
-  <img src="https://img.shields.io/badge/SystemVerilog-00979D?logo=verilog&logoColor=fff" alt="SystemVerilog"/>
-  <img src="https://img.shields.io/badge/ARM%20Microcontrollers-00979D?logo=arm&logoColor=fff" alt="ARM Microcontrollers"/>
-  <img src="https://img.shields.io/badge/x86%20Assembly-6E4C13?logo=asm&logoColor=fff" alt="x86 Assembly"/>
-  <img src="https://img.shields.io/badge/FPGA-00979D?logo=xilinx&logoColor=fff" alt="FPGA"/>
+  <img src="https://img.shields.io/badge/SystemVerilog-00979D?logo=verilog&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/RTL%20Design-555555"/>
+  <img src="https://img.shields.io/badge/Microarchitecture-555555"/>
+  <img src="https://img.shields.io/badge/Out--of--Order%20Execution-555555"/>
+  <img src="https://img.shields.io/badge/Superscalar%20Pipelines-555555"/>
+  <img src="https://img.shields.io/badge/Cache%20%26%20Memory%20Systems-555555"/>
+  <img src="https://img.shields.io/badge/Branch%20Prediction-555555"/>
 </p>
 
 ---
 
-### 🔹 Robotics & Machine Learning
+### 🔹 Verification & Hardware Tooling
 <p>
-  <img src="https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=fff" alt="ROS"/>
-  <img src="https://img.shields.io/badge/Gazebo-FF6600?logo=ros&logoColor=fff" alt="Gazebo"/>
-  <img src="https://img.shields.io/badge/RViz-5B5B5B?logo=ros&logoColor=fff" alt="RViz"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=fff" alt="OpenCV"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=fff" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=fff" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/VCS-8A2BE2"/>
+  <img src="https://img.shields.io/badge/Verdi-8A2BE2"/>
+  <img src="https://img.shields.io/badge/RTL%20Debug-555555"/>
+  <img src="https://img.shields.io/badge/Constrained--Random%20Testing-555555"/>
+  <img src="https://img.shields.io/badge/Golden%20Model%20Validation-555555"/>
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff"/>
 </p>
 
 ---
 
-### 🔹 Software & Tools
+### 🔹 Embedded Systems & Low-Level Software
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000" alt="React"/>
-  <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=fff" alt="Flask"/>
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff" alt="Git"/>
+  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/RISC--V%20Assembly-555555"/>
+  <img src="https://img.shields.io/badge/x86%20Assembly-555555"/>
+  <img src="https://img.shields.io/badge/ARM%20Microcontrollers-00979D?logo=arm&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/Linux%20Development-555555"/>
+</p>
+
+---
+
+### 🔹 Machine Learning (Applied to Systems)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff"/>
 </p>
 
 ---
 
 ## 📌 Featured Projects
-| Project | Description | Tech | Repos |
-| --- | --- | --- | --- |
-| **GEM Car Summon System** | ROS Noetic-based autonomous ‘Summon’ system for a GEM e2 EV that exits parking bays, follows lanes with a tuned PID controller, avoids obstacles using LiDAR, and stops precisely at a GPS-designated point, all triggered via a simple web interface. | Python, Flask, ROS, OpenCV, Gazebo, RViz, React, C++, Numpy | [GEM-Summon-Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware) <br><br> [GEM-Summoner-Frontend](https://github.com/steffen-brown/GEM-Summoner-Frontend) <br><br> [GEM-Summoner-Backend](https://github.com/steffen-brown/GEM-Summoner-Backend)|
-| **WUSN Soil Moisture Extrapolator** | Python-based system that interpolates and extrapolates live soil moisture maps from sparse wireless underground sensor network (WUSN) data and regional topography, enabling continuous coverage across the study area. | Python, Scikit-Learn, Numpy, Pandas | [Soil-Moisture-Interpolator-Extrapolator](https://github.com/steffen-brown/Soil-Moisture-Interpolator-Extrapolator) |
-| **Lightweight Operating System** | Lightweight x86-based embedded operating system written in C and assembly, featuring a custom scheduler, program execution, memory management, interrupt handling, and device drivers, all built without external libraries. | C, x86 Assembly, Embedded Systems | [Lightweight-Operating-System](https://github.com/steffen-brown/Lightweight-Operating-System) |
-| **FGPA-Based Pacman** | FPGA-based Pac-Man game for a Spartan 7 board, combining SystemVerilog hardware modules for VGA rendering, keyboard input, and real-time score display with C-based game logic handling movement, ghost AI, collision detection, and scoring via an AXI Lite interface. | SystemVerilog, FPGA, C, C++, Digital Design | [Pacman-FPGA](https://github.com/steffen-brown/Pacman-FPGA) |
 
+### 🧠 Hardware & RTL Design
+
+| Project | Description | Tech | Repo |
+|------|------------|------|------|
+| **Superscalar Out-of-Order RISC-V Core** | Designed and validated a SystemVerilog RV32IM out-of-order processor with register renaming, ROB-based retirement, reservation stations, split LSQ, and speculative execution. Benchmarked IPC, power, and delay and placed **2nd out of 30 teams** in UIUC’s Fall 2025 design competition. | SystemVerilog, RTL, CPU Microarchitecture, VCS, Verdi | *(Private / Academic)* |
+| **Cache Verification Testbench** | Built a transaction-level SystemVerilog verification environment for a 4-way set-associative, write-back cache with Tree-PLRU, including constrained-random stimulus, cycle-accurate golden modeling, and end-to-end protocol checking. | SystemVerilog, Verification, Caches | *(Private / Academic)* |
+| **FPGA-Based Pac-Man** | Hardware-software co-design project implementing VGA rendering, keyboard input, and game logic using custom SystemVerilog modules and an AXI-Lite interface to a C-based control program. | SystemVerilog, FPGA, C | [Pacman-FPGA](https://github.com/steffen-brown/Pacman-FPGA) |
 
 ---
 
-## 📫 Let's Connect
+### ⚙️ Embedded & Robotics Systems
+
+| Project | Description | Tech | Repo |
+|------|------------|------|------|
+| **GEM Car Summon System** | Autonomous “Summon” system for a GEM e2 EV that exits parking bays, follows lanes using camera-based perception, avoids obstacles via LiDAR, and navigates to a target location through a web-triggered interface. | Python, ROS, OpenCV, C++, Embedded Systems | [Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware)<br/>[Frontend](https://github.com/steffen-brown/GEM-Summoner-Frontend)<br/>[Backend](https://github.com/steffen-brown/GEM-Summoner-Backend) |
+| **Lightweight Operating System** | Minimal x86 operating system written in C and assembly, implementing task scheduling, memory management, interrupt handling, and device drivers without external libraries. | C, x86 Assembly, OS Internals | [Lightweight-Operating-System](https://github.com/steffen-brown/Lightweight-Operating-System) |
+
+---
+
+### 📊 Machine Learning for Engineering Systems
+
+| Project | Description | Tech | Repo |
+|------|------------|------|------|
+| **WUSN Soil Moisture Extrapolator** | Machine learning pipeline to interpolate and extrapolate soil moisture maps from sparse underground sensor data, enabling continuous environmental modeling across large regions. | Python, Scikit-Learn, NumPy | [Soil-Moisture-Interpolator-Extrapolator](https://github.com/steffen-brown/Soil-Moisture-Interpolator-Extrapolator) |
+
+---
+
+## 📫 Let’s Connect
 <p>
   <a href="https://www.linkedin.com/in/steffenbrown/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff"/>
   </a>
   <a href="mailto:sbrown16@illinois.edu">
-    <img src="https://img.shields.io/badge/Email-0078D4?logo=microsoft-outlook&logoColor=fff" alt="Outlook"/>
+    <img src="https://img.shields.io/badge/Email-0078D4?logo=microsoft-outlook&logoColor=fff"/>
   </a>
 </p>
 
 ---
 
-<p align="center"><i>"Always learning. Always building."</i></p>
+<p align="center"><i>Building hardware systems where architecture, correctness, and performance matter.</i></p>
