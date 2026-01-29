@@ -13,7 +13,7 @@
 - 🎓 Computer Engineering student at the **University of Illinois Urbana-Champaign**
 - 🧠 Focused on **digital design, microarchitecture, and verification**, with hands-on experience building complex RTL systems
 - 🧩 Designed and validated **out-of-order RISC-V processors, cache subsystems, and verification infrastructure** in SystemVerilog
-- ⚙️ Background in embedded and robotics systems, with ML used as a supporting tool for perception and control
+- ⚙️ Supplemental background in embedded and robotics systems, with ML used as a supporting tool for perception and control
 - 💡 Interested in roles where **correctness, performance, and architectural tradeoffs** matter
 
 ---
