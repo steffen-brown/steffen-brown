@@ -73,7 +73,7 @@
 
 | Project | Description | Tech | Repo |
 |------|------------|------|------|
-| **Superscalar Out-of-Order RISC-V Core** | Designed and validated a SystemVerilog RV32IM out-of-order processor with register renaming, ROB-based retirement, reservation stations, split LSQ, and speculative execution. Benchmarked IPC, power, and delay and placed **2nd out of 30 teams** in UIUC’s Fall 2025 design competition. | SystemVerilog, RTL, CPU Microarchitecture, VCS, Verdi | *(Private / Academic)* |
+| **Superscalar Out-of-Order RISC-V Core** | Designed and validated a SystemVerilog RV32IM out-of-order processor with register renaming, ROB-based retirement, reservation stations, split LSQ, and speculative execution. Benchmarked IPC, power, and delay and placed **2nd out of 30 teams** in UIUC’s Fall 2025 design competition. | SystemVerilog, RTL, CPU Microarchitecture, VCS, Verdi | [RISC-V Core](https://github.com/steffen-brown/RISC-V-Core) |
 | **Cache Verification Testbench** | Built a transaction-level SystemVerilog verification environment for a 4-way set-associative, write-back cache with Tree-PLRU, including constrained-random stimulus, cycle-accurate golden modeling, and end-to-end protocol checking. | SystemVerilog, Verification, Caches | *(Private / Academic)* |
 | **FPGA-Based Pac-Man** | Hardware-software co-design project implementing VGA rendering, keyboard input, and game logic using custom SystemVerilog modules and an AXI-Lite interface to a C-based control program. | SystemVerilog, FPGA, C | [Pacman-FPGA](https://github.com/steffen-brown/Pacman-FPGA) |
 
