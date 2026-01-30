@@ -13,7 +13,7 @@
 - 🎓 Computer Engineering student at the **University of Illinois Urbana-Champaign**
 - 🧠 Focused on **digital design, microarchitecture, and verification**, with hands-on experience building complex RTL systems
 - 🧩 Designed and validated **out-of-order RISC-V processors, cache subsystems, and verification infrastructure** in SystemVerilog
-- ⚙️ Supplemental background in embedded and robotics systems, with ML used as a supporting tool for perception and control
+- ⚙️ Supplemental background in embedded and robotics systems, with ML used as a supporting tool for perception and systems analysis
 - 💡 Interested in roles where **correctness, performance, and architectural tradeoffs** matter
 
 ---
@@ -37,9 +37,11 @@
 <p>
   <img src="https://img.shields.io/badge/VCS-8A2BE2"/>
   <img src="https://img.shields.io/badge/Verdi-8A2BE2"/>
-  <img src="https://img.shields.io/badge/RTL%20Debug-555555"/>
-  <img src="https://img.shields.io/badge/Constrained--Random%20Testing-555555"/>
-  <img src="https://img.shields.io/badge/Golden%20Model%20Validation-555555"/>
+  <img src="https://img.shields.io/badge/Design%20Vision-8A2BE2"/>
+  <img src="https://img.shields.io/badge/SystemVerilog%20Assertions-555555"/>
+  <img src="https://img.shields.io/badge/RVFI-555555"/>
+  <img src="https://img.shields.io/badge/Spike%20(RISC--V)-555555"/>
+  <img src="https://img.shields.io/badge/Python--based%20Test%20Generation-555555"/>
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff"/>
 </p>
 
@@ -51,8 +53,10 @@
   <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=fff"/>
   <img src="https://img.shields.io/badge/RISC--V%20Assembly-555555"/>
   <img src="https://img.shields.io/badge/x86%20Assembly-555555"/>
+  <img src="https://img.shields.io/badge/Bare--Metal%20Programming-555555"/>
   <img src="https://img.shields.io/badge/ARM%20Microcontrollers-00979D?logo=arm&logoColor=fff"/>
   <img src="https://img.shields.io/badge/Linux%20Development-555555"/>
+  <img src="https://img.shields.io/badge/Vivado-EE4C2C"/>
 </p>
 
 ---
@@ -61,6 +65,7 @@
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=fff"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=fff"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=fff"/>
   <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff"/>
 </p>
@@ -73,9 +78,9 @@
 
 | Project | Description | Tech | Repo |
 |------|------------|------|------|
-| **Superscalar Out-of-Order RISC-V Core** | Designed and validated a SystemVerilog RV32IM out-of-order processor with register renaming, ROB-based retirement, reservation stations, split LSQ, and speculative execution. Benchmarked IPC, power, and delay and placed **2nd out of 30 teams** in UIUC’s Fall 2025 design competition. | SystemVerilog, RTL, CPU Microarchitecture, VCS, Verdi | [RISC-V Core](https://github.com/steffen-brown/RISC-V-Core) |
-| **Cache Verification Testbench** | Built a transaction-level SystemVerilog verification environment for a 4-way set-associative, write-back cache with Tree-PLRU, including constrained-random stimulus, cycle-accurate golden modeling, and end-to-end protocol checking. | SystemVerilog, Verification, Caches | [Cache Testbench](https://github.com/steffen-brown/cache-testbench) |
-| **FPGA-Based Pac-Man** | Hardware-software co-design project implementing VGA rendering, keyboard input, and game logic using custom SystemVerilog modules and an AXI-Lite interface to a C-based control program. | SystemVerilog, FPGA, C | [Pacman-FPGA](https://github.com/steffen-brown/Pacman-FPGA) |
+| **Superscalar Out-of-Order RISC-V Core** | Designed and validated a SystemVerilog RV32IM out-of-order processor with register renaming, ROB-based retirement, reservation stations, split LSQ, speculative execution, and 625 MHz timing closure. Benchmarked IPC, power, and delay. | SystemVerilog, RTL, VCS, Verdi, RVFI, Spike | [RISC-V Core](https://github.com/steffen-brown/RISC-V-Core) |
+| **Cache Verification Testbench** | Built a transaction-level verification environment for a 4-way set-associative write-back cache with constrained-random stimulus and cycle-accurate golden modeling. | SystemVerilog, SVA, Verification | [Cache Testbench](https://github.com/steffen-brown/cache-testbench) |
+| **FPGA-Based Pac-Man** | Hardware-software co-design project implementing VGA rendering, keyboard input, and game logic using custom SystemVerilog modules and AXI-Lite control. | SystemVerilog, FPGA, C | [Pacman-FPGA](https://github.com/steffen-brown/Pacman-FPGA) |
 
 ---
 
@@ -83,8 +88,8 @@
 
 | Project | Description | Tech | Repo |
 |------|------------|------|------|
-| **GEM Car Summon System** | Autonomous “Summon” system for a GEM e2 EV that exits parking bays, follows lanes using camera-based perception, avoids obstacles via LiDAR, and navigates to a target location through a web-triggered interface. | Python, ROS, OpenCV, C++, Embedded Systems | [Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware)<br/>[Frontend](https://github.com/steffen-brown/GEM-Summoner-Frontend)<br/>[Backend](https://github.com/steffen-brown/GEM-Summoner-Backend) |
-| **Lightweight Operating System** | Minimal x86 operating system written in C and assembly, implementing task scheduling, memory management, interrupt handling, and device drivers without external libraries. | C, x86 Assembly, OS Internals | [Lightweight-Operating-System](https://github.com/steffen-brown/Lightweight-Operating-System) |
+| **GEM Car Summon System** | Autonomous “Summon” system for a GEM e2 EV using camera-based perception, LiDAR obstacle avoidance, and web-triggered navigation. | Python, ROS, OpenCV, C++ | [Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware)<br/>[Frontend](https://github.com/steffen-brown/GEM-Summoner-Frontend)<br/>[Backend](https://github.com/steffen-brown/GEM-Summoner-Backend) |
+| **Lightweight Operating System** | Minimal x86 OS implementing task scheduling, interrupts, memory management, and device drivers without external libraries. | C, x86 Assembly | [Lightweight-Operating-System](https://github.com/steffen-brown/Lightweight-Operating-System) |
 
 ---
 
@@ -92,7 +97,7 @@
 
 | Project | Description | Tech | Repo |
 |------|------------|------|------|
-| **WUSN Soil Moisture Extrapolator** | Machine learning pipeline to interpolate and extrapolate soil moisture maps from sparse underground sensor data, enabling continuous environmental modeling across large regions. | Python, Scikit-Learn, NumPy | [Soil-Moisture-Interpolator-Extrapolator](https://github.com/steffen-brown/Soil-Moisture-Interpolator-Extrapolator) |
+| **WUSN Soil Moisture Extrapolator** | ML pipeline to interpolate soil moisture fields from sparse underground sensor networks for large-area environmental modeling. | Python, scikit-learn, PyTorch | [Soil-Moisture-Interpolator-Extrapolator](https://github.com/steffen-brown/Soil-Moisture-Interpolator-Extrapolator) |
 
 ---
 
